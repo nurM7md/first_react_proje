@@ -1,0 +1,139 @@
+/*----------grid----------*/
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 28.33%;
+}    
+.col-5{
+    width: 41.66%;
+}       
+.col-6{
+    width: 49%;
+}    
+.col-7{
+    width: 58.33%;
+} 
+.col-8{
+    width: 66.66%;
+} 
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.margin{
+    margin-top: 120px;
+}
+header{
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: 700px;
+    overflow: hidden;
+    padding-top: 50px;
+}
+header img{
+    width: 700px;
+    height: 600px;
+    border-radius: 50%;
+    padding-left: 150px;
+}
+.head1{
+    padding-top: 100px;
+}
+span{
+    color: red;
+    font-size: 100px;
+}
+header p{
+    color: gray;
+}
+header .b1{
+    background-color: red;
+    border-radius: 8px;
+    color: aliceblue;
+    border: none;
+    padding: 12px;
+    margin-bottom: 40px;
+}
+.b1:hover{
+    background-color: black;
+}
+.b2{
+    color: red;
+    background: transparent;
+    border-color: red;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.b2:hover{
+    background-color: black;
+    border: none;
+}
+i{
+    font-size: 30px;
+    border-radius: 50%;
+    color: gray;
+    margin-top: 50px;
+    background-color: red;
+}
+/**********************************/
+.food{
+    margin-top: 130px;
+}
+.col-md-2{
+    background-color:rgb(252, 196, 205);
+    margin: 45px;
+    border-radius: 10px;
+}
+.col-md-2 h3{
+    display: inline;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.foo:hover{
+    cursor: pointer;
+    background-color: rgb(203, 85, 85);
+    transition: 0.3s ease-in-out;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+/****************************************/
+.head2{
+    text-align: center;
+    margin-top: 90px;
+    
+}
+.head3 img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 30px;
+   
+}
